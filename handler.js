@@ -519,13 +519,13 @@ export async function participantsUpdate({
     if (global.db.data == null) await loadDatabase();
     const chat = global.db.data.chats[id] || {};
     const emoji = {
-        promote: '👤👑',
-        demote: '👤🙅‍♂️',
+        promote: '😋👑',
+        demote: '🤗🙅‍♂️',
         welcome: '👋',
         bye: '👋',
         bug: '🐛',
         mail: '📮',
-        owner: '👑'
+        owner: '😎'
     };
 
     
